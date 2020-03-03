@@ -1,0 +1,25 @@
+{
+  "name": "pay_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Coder isngh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jwt-then": "^1.0.1",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.21.5",
+    "sequelize-typescript": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.30",
+    "@types/jwt-then": "^1.0.0",
+    "@types/validator": "^12.0.1"
+  }
+}
